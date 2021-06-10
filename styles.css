@@ -1,40 +1,11 @@
-#album-container {
-}
-
-#album-reviews {
-}
-
-#album-cover {
-}
-
-#album-title {
-}
-
-#album-group {
-}
-
-#album-genre {
-}
-
-#album-duration {
-}
-
-#album-tracklist {
-}
-
-#album-interesting {
-}
-
-#hall-of-shame {
-}
-
-#favorite-band {
-}
-
-#more-Albums {
-}
-
 #album-container div.card img {
   width: 300px;
   height: 250px;
+}
+
+#album-container div.card span {
+  position: absolute;
+  z-index: 9;
+  font-size: 1.5em;
+  background-color: rgb(68, 21, 21);
 }

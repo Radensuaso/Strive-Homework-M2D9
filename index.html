@@ -77,9 +77,27 @@ Make sure you check the documentation before creating anything custom.
       </div>
        
       </nav>
+
+      <!-- EXERCISE 2
+        Create a Jumbotron section with a quick explanation / image of the website
+    -->
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Fluid jumbotron</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div>
+      
       <div class="container-md">
+        <h1 class="my-2">My Favorite Albums</h1>
         <div class="row" id="album-container">
-          <h1 class="my-2 col-12">My Favorite Albums</h1>
+          
+    <!-- EXERCISE 3
+        Foreach album in the favorite list, place the genre inside a badge
+    -->
+
+          
           <div class="card col-6 col-md-4 col-lg-3 my-3" style="width: 18rem">
             <img src="assets/Muse Drones.jpg" class="card-img-top img-fluid" alt="..." />
             <div class="card-body">
@@ -90,6 +108,7 @@ Make sure you check the documentation before creating anything custom.
               </p>
               <a href="#" class="btn btn-dark">Go somewhere</a>
             </div>
+            <span class="badge badge-primary">Rock</span>
           </div>
           <div class="card col-6 col-md-4 col-lg-3 my-3" style="width: 18rem">
             <img
@@ -105,6 +124,7 @@ Make sure you check the documentation before creating anything custom.
               </p>
               <a href="#" class="btn btn-dark">Go somewhere</a>
             </div>
+            <span class="badge badge-primary">Rock</span>
           </div>
           <div class="card col-6 col-md-4 col-lg-3 my-3" style="width: 18rem">
             <img
@@ -120,6 +140,7 @@ Make sure you check the documentation before creating anything custom.
               </p>
               <a href="#" class="btn btn-dark">Go somewhere</a>
             </div>
+            <span class="badge badge-primary">Rock</span>
           </div>
           <div class="card col-6 col-md-4 col-lg-3 my-3" style="width: 18rem">
             <img
@@ -135,6 +156,7 @@ Make sure you check the documentation before creating anything custom.
               </p>
               <a href="#" class="btn btn-dark">Go somewhere</a>
             </div>
+            <span class="badge badge-primary">Rock</span>
           </div>
           <div class="card col-6 col-md-4 col-lg-3 my-3" style="width: 18rem">
             <img
@@ -150,6 +172,7 @@ Make sure you check the documentation before creating anything custom.
               </p>
               <a href="#" class="btn btn-dark">Go somewhere</a>
             </div>
+            <span class="badge badge-primary">Rock</span>
           </div>
           <div class="card col-6 col-md-4 col-lg-3 my-3" style="width: 18rem">
             <img
@@ -165,6 +188,7 @@ Make sure you check the documentation before creating anything custom.
               </p>
               <a href="#" class="btn btn-dark">Go somewhere</a>
             </div>
+            <span class="badge badge-primary">Rock</span>
           </div>
           <div class="card col-6 col-md-4 col-lg-3 my-3" style="width: 18rem">
             <img
@@ -180,6 +204,7 @@ Make sure you check the documentation before creating anything custom.
               </p>
               <a href="#" class="btn btn-dark">Go somewhere</a>
             </div>
+            <span class="badge badge-primary">Rock</span>
           </div>
           <div class="card col-6 col-md-4 col-lg-3 my-3" style="width: 18rem">
             <img
@@ -195,6 +220,7 @@ Make sure you check the documentation before creating anything custom.
               </p>
               <a href="#" class="btn btn-dark">Go somewhere</a>
             </div>
+            <span class="badge badge-primary">Rock</span>
           </div>
         </div>
         <div class="row" id="album-reviews">
@@ -342,6 +368,7 @@ Make sure you check the documentation before creating anything custom.
               <img src="http://via.placeholder.com/500" alt="#" class="img-fluid">
             </div> 
           </div>
+
           <div class="row" id="hall-of-shame">
             <h2 class="my-2 col-12">Hall of Shame</h1>
               <div class="card col-6 col-md-4 col-lg-3 my-3" style="width: 18rem">
@@ -457,20 +484,24 @@ Make sure you check the documentation before creating anything custom.
                 </div>
               </div>
             </div>
-      </div>
+     
+    </div>
+
+        
+
+           
+        <footer>
+
           <div class="card text-center">
-            <div class="card-header bg-dark">
-              <ul class="nav nav-tabs card-header-tabs">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-              </ul>
+              
+<!-- EXERCISE 1
+ Use the specific bootstrap components to implement a Breadcrumb
+    -->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">To the Top</a></li>
+                </ol>
+              </nav>
             </div>
             <div class="card-body">
               <h5 class="card-title">Special title treatment</h5>
@@ -478,20 +509,14 @@ Make sure you check the documentation before creating anything custom.
               <a href="#" class="btn btn-dark">Go somewhere</a>
             </div>
           </div>
+          </footer>
       
   
 
-    <!-- EXERCISE 1
-        Use the specific bootstrap components to implement a Breadcrumb
-    -->
+   
 
-    <!-- EXERCISE 2
-        Create a Jumbotron section with a quick explanation / image of the website
-    -->
+    
 
-    <!-- EXERCISE 3
-        Foreach album in the favorite list, place the genre inside a badge
-    -->
 
     <!-- EXERCISE 4
         Foreach album in the favorite list, use the Bootstrap Card to contain it.
