@@ -11,5 +11,6 @@
 }
 
 #album-tracklist table tbody tr:nth-child(odd) {
-  background-color: cornflowerblue;
+  background-color: rgb(49, 49, 49);
+  color: white;
 }
