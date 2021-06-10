@@ -20,14 +20,10 @@ function deleteRow() {
     "#album-tracklist table tbody tr td:last-of-type button"
   )
 
-  for (let i = 0; i < rowToDelete.length; i++) {
-    const tr = rowToDelete[i]
-    for (let j = 0; j < deleteButtons.length; j++) {
-      const button = deleteButtons[j]
-      if (i === j) {
-        tr.remove()
-        break
-      }
+  for (let i = 0; i < deleteButtons.length; i++) {
+    const button = deleteButtons[i]
+    for (let j = 0; j < rowToDelete.length; j++) {
+      const tr = rowToDelete[j]
     }
   }
 }
